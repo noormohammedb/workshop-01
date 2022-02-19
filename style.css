@@ -1,0 +1,39 @@
+body {
+  /* background: linear-gradient(
+    to bottom right,
+    rgb(175, 38, 38),
+    rgb(8, 79, 126),
+    rgb(8, 121, 36)
+  ); */
+
+  background-color: #08aeea;
+  background: linear-gradient(0deg, #51ff00 0%, #002a85 100%);
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  /* background-color: aqua; */
+  border-collapse: collapse;
+}
+#frow {
+  background-color: #fd3d2f;
+}
+
+tr:nth-child(2n) {
+  background-color: #db003c;
+}
+
+tr:nth-child(2n + 1) {
+  background-color: rgb(42, 136, 165);
+}
+
+tr:hover {
+  background-color: #ebdd17;
+}
+th,
+td {
+  padding: 3px 20px;
+}
